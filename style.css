@@ -1,0 +1,897 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+
+.maincontainer{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-block: 10px;
+    /* position: fixed; */
+}
+
+
+.logoimg img{
+  width: 150px;
+}
+
+.ulsection{
+    width: 50%;
+}
+
+
+.ulsection ul {
+    display: flex;
+    /* gap: 50px; */
+    padding-left: 70px;
+    list-style: none;
+    justify-content: space-around;
+    
+    
+}
+
+
+.btn-sec{
+    padding-right: 5px;
+}
+
+
+
+.btn-sec button{
+    width: 50px;
+    height: 25px;
+    border: 1px solid #E2E2E2;
+    border-radius: 25px;
+    background-color: white;
+    
+}
+
+/* .btn-sec:last-child{
+    background-color: black;
+} */
+
+
+
+.container1{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+
+.right-part{
+    width: 50%;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.text-p{
+    padding-block: 15px;
+}
+
+
+
+.left-part{
+    width: 50%;
+    height: auto;
+
+     
+    
+}
+
+.left-part p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5px;
+    line-height: 25px;
+    /* color: ; */
+}
+
+.btn-dis button{
+    width: 25%;
+    height: 25px;
+    background-color: yellow;
+    margin-left: 23%;
+    border: none;
+    margin-block: 15px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+
+
+.container2{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    
+    
+}
+
+
+.containerimg{
+    width: 100%;
+    height: 50vh;
+
+    background-image: url(closeup-golf-ball-green-lawn-background-generative-ai_659980-114.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    /* margin-block: 55px; */
+    
+    
+}
+
+.container3 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    padding: 25px;
+
+}
+
+
+.box-section{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* gap: 100px; */
+    justify-content: space-around;
+    padding: 50px;
+}
+
+
+.card{
+    width: 220px;
+    height: 75px;
+    /* background-color: aqua; */
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 15px;
+    /* align-items: center; */
+}
+
+
+.carder img{
+    width: 85px;
+    /* height: 25px; */
+    padding-block: 15px;
+    border-radius: 20px;
+    
+}
+
+
+.btn-box button{
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    border:1px solid grey ;
+    background-color: transparent;
+    margin-left: 5px;
+}
+
+.card p{
+    padding: 15px;
+    font-size: 10px;
+}
+
+
+.card:last-child img{
+    width: 55px;
+
+}
+
+
+.card:nth-child(2){
+    background-color: black;
+    color: white;
+}
+
+
+/* .card:nth-child(2)button{ */
+/* color: #E2E2E2; */
+/* } */
+
+
+
+.btn-box:nth-child(2) button{
+    color: white;
+
+}
+
+.btn-box:first-child button{
+    color: black;
+}
+
+.contaainer4{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    gap: 75px;
+
+
+    
+
+}
+
+
+.boxer{
+    width: 380px;
+    height: 200px;
+    padding-left: 55px;
+    
+    
+    
+}
+
+
+.boxer h1{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+.boxer p{
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(14, 13, 13);
+   font-weight: 500;
+}
+
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.more button{
+    width: 150px;
+    height: 25PX;
+    /* margin-block: 10px; */
+    font-weight: 700;
+    border: 1px solid grey;
+    background-color: yellow;
+    border-radius: 15px;
+    /* display: flex; */
+}
+
+
+
+.boxer11{
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    background-image: url(image.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container5{
+    width: 100%;
+    height: 60vh;
+    padding: 15px;
+    
+
+}
+
+.imggolf{
+    width: 100%;
+    height: 50vh;
+    margin-block: 25px;
+    background-color:blue;
+    background-image: url(golf-ball-golf-club-green-course-golf-club-close-up-created-with-generative-ai_77190-15603.jpg);
+     background-position: center;
+     background-size: cover;
+     border-radius: 25px;
+}
+
+.imggolf h1{
+    color: white;
+    padding: 25px;
+    font-size: 30px;
+    
+}
+
+
+.imggolf p{
+    color: white;
+    padding: 10px;
+    line-height: 20px;
+    padding-left: 17px;
+}
+
+
+
+
+.btn-us button{
+    width: 10%;
+    height: 25px;
+    background-color: yellow;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    margin-left: 25px;
+    font-weight: 500;
+    margin-block: 25px;
+
+}
+
+.container-6{
+    width: 100%;
+    height: auto;
+  background-color: #EFF1E4;
+  padding: 15px;
+  /* display: flex; */
+}
+
+
+.preghraph-part h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.preghraph-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+}
+
+
+.carder-cap{
+    width: 100%;
+     height: auto;
+     display: flex;
+     justify-content: space-between;
+    }
+
+
+    .card-box{
+        width: 260px;
+        height: 300px;
+        /* background-color: aqua; */
+       /* background-image: url(Dad_Hat_Black_01_WEB.png); */
+    
+    
+    }
+
+
+    .img-box1{
+        width: 250px;
+        height: 250px;
+        background-image: url(Dad_Hat_Black_01_WEB.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+
+
+    .img-box1 button{
+        width: 45%;
+        height: 25px;
+        border-radius: 25px;
+        font-size: 15px;
+        background-color: #B1BB24;
+        color: white;
+        margin:  5px;
+    }
+
+
+
+    .caps{
+      padding-left: 15px;
+    }
+
+
+    .img-box2{
+        width: 250px;
+        height: 250px;
+    }
+
+    .img-box2{
+        background-image: url(s-l140.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .img-box3{
+        width: 250px;
+        height: 250px;
+        background-image: url(img2.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    .img-box4{
+        width: 250px;
+        height: 250px;
+        background-image:url(img4.png) ;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    
+
+
+
+    .btn-product {
+        margin: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+    }
+
+
+
+    .btn-product button{
+        width: 15%;
+        height: 27px;
+        border-radius: 25px;
+        border: none;
+        background-color: #282828;
+        color: white;
+        font-size: 18px;
+    }
+
+
+
+
+    .container7{
+        width: 100%;
+        height: 25vh;
+        /* display: flex; */
+        
+
+    }
+    .last-p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+
+
+
+
+    .last-p h1 {
+        font-size: 35px;
+        padding-block: 10px;
+    }
+
+
+
+
+    .last-p p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+
+
+    .container-last{
+        width: 100%;
+        height: auto;
+    display: flex;
+    }
+
+
+    .left-last{
+        width: 30%;
+        height: 50vh;
+        /* background-color: #B1BB24; */
+    }
+
+
+    .card-last{
+        width: 250px;
+        height: 290px;
+        margin: 25px;
+        border-radius: 15px;
+        /* margin-right: 25px; */
+
+        background-color: green;
+        background-image: url(./10544_ZNZN_101.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+
+
+    .date-p{
+        padding-left: 5px;
+    }
+
+
+    .date-p h2{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 900;
+    padding-block: 25px;
+    /* color: white; */
+    }
+
+
+    .right-last{
+        width: 70%;
+        height: 50vh;
+        background-color: aqua;
+    }
+
+
+    .lastdiv{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+
+    }
+
+   
+    .fullcard{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-block: 4px;
+        
+        
+    }
+
+
+    .cupimg{
+        width: 10%;
+        height: 95px;
+        background-color: #F3F7FA;
+        display: flex;
+        
+        
+    }
+
+    .cupimg img{
+        width: 100%;
+        height: 95px;
+        border-radius: 15px;
+        border: none;
+    }
+
+
+    .ussinior{
+        width: 90%;
+        height: 96px;
+        padding-left: 15px;
+        background-color: #F3F7FA;
+        line-height: 20px;
+    }
+
+
+    .ussinior button{
+        width: 15%;
+        height: 25px;
+        border: none;
+        border-radius: 25px;
+        margin-block: 5px;
+        background-color: yellow;
+
+                
+    }
+
+
+    .fotter-last{
+        width: 95%;
+        margin-left:25px;      
+       background-color: #141414;
+       display: flex;    
+       align-items: center;
+       justify-content: space-around;
+        padding-block: 25px;
+     
+
+    }
+
+
+    .fotter-img {
+        width: 15%;
+    }
+
+    .fotter-img img{
+        width: 90%;
+    }
+      
+
+
+
+    .fotter-img p{
+        color: white;
+
+    }
+
+
+    .ullast{
+      
+        line-height: 25px;
+    }
+
+
+    .ullast ul li {
+        list-style: none;
+    }
+
+
+    .ullast h1 {
+        color: white;
+        font-size: 25px;
+    }
+
+
+.ullast li{
+    color: white;
+  font-weight: 500;
+}    
+
+.hr{
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+    margin-left: 25px;
+}
+
+.hr hr{
+    width: 80%;
+    height: auto;
+    margin-block: 1rem;
+}
+
+
+
+.icone-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 15px;
+
+}
+
+
+.right-last1{
+    width: 50%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+
+}
+
+
+
+.left-last1{
+    width: 50%;
+    height: auto;
+}
+
+
+
+.icones{
+    width: 50%;
+    height: auto;
+
+    font-size: 25px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 20px;
+    margin-left: 95px;
+}
+
+.boxer11{
+    border-radius: 10px;
+}
+
+
+.btn-us button{
+    width: 25%;
+}
+
+
+
+
+
+@media (max-width:720px) {
+
+    .maincontainer{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+
+.navbar{
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* padding-block: 10px; */
+    /* position: fixed; */
+}
+
+.logoimg{
+    width: 150px;
+    /* background-color: #141414; */
+}
+ 
+.logoimg img{
+    width: 150px;
+}
+
+
+
+
+
+
+  
+  .btn-sec button{
+    
+    display: none;
+    /* <i class="fa-solid fa-bars"></i> */
+  }   
+.container1{
+    width: 100%;
+    height: auto;
+
+}
+
+
+  .right-part{
+     width: 50%;
+  }
+
+  .text-p{
+    font-size: 13px;
+  }
+
+  .btn-dis{
+    width: 100%;
+  }
+
+  .btn-dis button{
+    width: 50%;
+    font-size: 18px;
+  }
+
+  .box-section{
+    width: 100%;
+    height: auto;
+    /* justify-content: space-around; */
+    gap: 15px;
+    /* background-color: red; */
+  }
+
+
+   .card{
+    width: 100%;
+    height: 100px;
+    /* background-color: green; */
+   }
+   
+
+  .contaainer4{
+    /* background-color: red; */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+    .text-part1 h1{
+        font-size: 25px;
+    }
+
+
+    .text-part1 p{
+        font-size: 15px;
+    }
+      .container5{
+        width: 100%;
+        height: auto;
+      }
+
+
+      .imggolf{
+        width: 100%;
+        height: auto;
+      }
+
+
+
+
+
+    .carder-cap{
+        width: 100%;
+        display: flex;
+        margin-block: 15px;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .btn-product button{
+        width: 40%;
+        /* background-color: #141414; */
+    }
+
+
+    .container7{
+        width: 100%;
+        height: auto;
+        /* flex-direction: column; */
+    }
+
+
+    .container-last{
+        width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    }
+
+
+    .left-last{
+        height: 100%;
+        height: auto;
+    }
+
+    /* .card-last{ */
+        
+        /* background-color: #141414; */
+    /* } */
+
+
+
+.lastdiv{
+    width: 100%;
+    /* background-color: red; */
+      padding: 5px;
+}
+.ullast{
+    /* width: 95%; */
+}
+ /* end */
+
+}
+
+
+
+
